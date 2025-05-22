@@ -41,20 +41,35 @@ This dataset contains audio samples labeled as either real or AI-generated deepf
 df_detection.ipynb                 # Notebook for training the models
 
 project-root/
+
 │
+
 ├── app.py                         # Flask app for running predictions
+
 ├── model.py                       # CNN architectures and preprocessing function
+
 ├── requirements.txt               # All Python dependencies
+
 │
+
 ├── deepfake_voice_detector.pth    # Trained model for deepfake detection
+
 ├── gender_detector.pth            # Trained model for gender detection
+
 │
+
 ├── static/
+
 │   ├── style.css                  # Optional custom styles
+
 │   ├── script.js                  # Optional JS for frontend behavior
+
 │   └── favicon.ico                # Web app icon
+
 │
+
 └── templates/
+
     └── index.html                 # Main HTML template for UI
 
 1. Set Up Environment
