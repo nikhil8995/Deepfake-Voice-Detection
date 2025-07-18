@@ -22,8 +22,9 @@ git clone <https://github.com/nikhil8995/Deepfake-Voice-Detection>
 cd Deepfake-Voice-Detection
 ```
 ### 2. Download Dataset
+Kaggle Link:
 ```
-Kaggle Link : https://www.kaggle.com/code/emilyheart/deepvoice-ai-detection-ver2/input?select=KAGGLE
+https://www.kaggle.com/code/emilyheart/deepvoice-ai-detection-ver2/input?select=KAGGLE
 ```
 ### 3. Setup Conda Environment
 ```bash
