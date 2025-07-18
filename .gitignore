@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Logs
+*.log
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+local_settings.py
+# Data & models
+data/
+datasets/
+*.csv
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+# Ignore everything in Audio/
+Audio/
