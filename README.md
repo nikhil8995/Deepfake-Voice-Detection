@@ -21,25 +21,28 @@ A modern, mobile-friendly web application for detecting deepfake audio and predi
 git clone <https://github.com/nikhil8995/Deepfake-Voice-Detection>
 cd Deepfake-Voice-Detection
 ```
-
-### 2. Setup Conda Environment
+### 2. Download Dataset
+```
+Kaggle Link : https://www.kaggle.com/code/emilyheart/deepvoice-ai-detection-ver2/input?select=KAGGLE
+```
+### 3. Setup Conda Environment
 ```bash
 conda create -n dfvenv python=3.11
 conda activate dfvenv
 ```
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 ```bash
 conda install numpy scipy scikit-learn matplotlib tqdm
 pip install torch librosa soundfile django djangorestframework pillow
 ```
 
-### 4. Train the Model
+### 5. Train the Model
 ```bash
 python deepfake_gender_cnn.py
 ```
 
-### 5. Run the Server
+### 6. Run the Server
 ```bash
 python manage.py migrate
 python manage.py runserver 0.0.0.0:8000
@@ -67,7 +70,6 @@ Visit `http://localhost:8000/` or `http://<your-ip>:8000/` in your browser.
 ## Credits
 - **Frontend**: Bootstrap 5, FontAwesome, WaveSurfer.js
 - **Backend**: Django, PyTorch, Librosa
-- **Author**: [Your Name]
 
 ---
 
